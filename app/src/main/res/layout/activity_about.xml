@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F2F2F2"
+	android:gravity="center_horizontal">
+
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="#FFFFFF">
+
+		<ImageView
+			android:src="@drawable/arrow_left"
+			android:layout_width="?attr/actionBarSize"
+			android:layout_height="?attr/actionBarSize"
+			android:padding="16dp"
+			android:layout_alignParentLeft="true"
+			android:layout_centerHorizontal="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="123"
+			android:password="true"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:textSize="16.5sp"/>
+
+	</RelativeLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="0.5dp"/>
+
+	<xiaoheng.flayout.RoundImageView
+		android:layout_width="76dp"
+		android:layout_height="76dp"
+		android:layout_marginTop="65dp"
+		android:layout_marginBottom="20dp"
+		android:src="@drawable/heng"
+		android:id="@+id/activityaboutImageView1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Vary"
+		android:textSize="18sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="分享不拘一格"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="40dp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackground"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="关于 Vary"
+				android:layout_weight="1.0"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"/>
+
+			<ImageView
+				android:src="@drawable/arrow2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackground"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="提交反馈建议和bug"
+				android:layout_weight="1.0"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"/>
+
+			<ImageView
+				android:src="@drawable/arrow2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackground"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="提升好友数量上限"
+				android:layout_weight="1.0"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"/>
+
+			<ImageView
+				android:src="@drawable/arrow2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackground"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="在 App Store 评分"
+				android:layout_weight="1.0"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"/>
+
+			<ImageView
+				android:src="@drawable/arrow2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackground"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="更新卡片排版引擎"
+				android:layout_weight="1.0"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"/>
+
+			<ImageView
+				android:src="@drawable/arrow2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

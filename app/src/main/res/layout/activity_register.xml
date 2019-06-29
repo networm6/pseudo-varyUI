@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:background="#F2F2F2">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:gravity="right">
+
+		<ImageView
+			android:src="@drawable/wrong"
+			android:layout_alignParentRight="true"
+			android:layout_width="?attr/actionBarSize"
+			android:layout_height="?attr/actionBarSize"
+			android:padding="10dp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="112244"
+		android:layout_margin="20dp"
+		android:textSize="60sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="通过你的 Vary ID，登录和添加好友都要用到它。\n现在，设置一个登录密码即可完成注册。"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:gravity="center"
+		android:layout_marginBottom="30dp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="输入新密码:"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"
+				android:layout_margin="13dp"/>
+
+			<EditText
+				android:layout_width="wrap_content"
+				android:inputType="textPassword"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:background="@null"
+				android:layout_weight="1.0"
+				android:hint="至少六位英文和数字"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="0.8dp"
+			android:layout_marginLeft="15dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="再输入一次:"
+				android:textSize="16sp"
+				android:layout_marginLeft="15dp"
+				android:layout_margin="13dp"/>
+
+			<EditText
+				android:layout_width="wrap_content"
+				android:inputType="textPassword"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:background="@null"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="bottom|center_horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="12sp"
+			android:gravity="center_vertical"
+			android:id="@+id/activityregisterTextView1"
+			android:layout_margin="10dp"/>
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardElevation="5dp"
+			app:cardBackgroundColor="#2196F3"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
+			android:layout_marginBottom="13dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="完成注册"
+				android:layout_margin="13dp"
+				android:textStyle="bold"
+				android:textSize="15sp"
+				android:textColor="#FFFFFF"
+				android:gravity="center"/>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+</LinearLayout>
+
